@@ -1,0 +1,237 @@
+body{
+    background-color: #073237;
+    color: white;
+}
+main{
+    position: fixed;
+    /* margin-top: 5%; */
+    /* padding: 10%; */
+}
+.fun-page{
+    position: relative;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+.fun-page .list{
+    margin-top: 2%;
+    padding: 2rem;
+    background-color:#0b2123;
+    max-width: 45%;
+}
+.fun-page div{
+    max-width: 50%;
+}
+.fun-page img{
+    /* float: right; */
+    height: 10em;
+}
+#list-2{
+    float: center;
+}
+p{
+    padding: 2rem;
+    line-height: 2;
+    size: 12rem;
+    text-size-adjust: auto;
+}
+.main{
+    text-align: center;
+}
+#inroduction-header{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+}
+#homepage-paragraph{
+    text-align: left;
+    min-width: 20%;
+    max-width: 65%;
+}
+
+#photo-of-me{
+    float:right;
+    margin-left: 15%;
+    max-height: 40rem;
+    margin-bottom: 5%;
+}
+.resume{
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    /* min-width: 20%; */
+    max-width: 60%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+.resume p{
+    padding: 0;
+    margin-left: 2rem;
+}
+.resume h2{
+    position: relative;
+    margin-left: 2rem;
+}
+.resume-info{
+    border: solid;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nav-item{
+    color: white;
+}
+#intro-paragraph{
+    position: relative;
+    padding-left: 10%;
+    min-width: 20%;
+    max-width: 60%;
+}
+#banner-header{
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    left: 0;
+}
+h1{
+    position: relative;
+    /* margin-top: 5%;
+    margin-left: 7%; */
+}
+.project-header{
+    text-align: center;
+    /* min-width: 20%;
+    max-width: 90%; */
+}
+.project-paragraphs{
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    line-height: 2;
+    background-color: #0b2123;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 3%;
+}
+.banner{
+    background-image: url(https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg);
+    /* height: 8rem; */
+    padding: 4rem;
+    text-align: center;
+    margin: auto;
+}
+@media only screen and (max-device-width: 468px){
+    #photo-of-me{
+        position: relative;
+        margin-top: 7%;
+        top: 20%;
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        background-color: #0b2123;
+    }
+    #homepage-paragraph{
+        text-align: center;
+        margin-left: none;
+        max-width: 100%;
+        padding: 2rem;
+        background-color: #0b2123;
+    }
+    .fun-page{
+        margin-left: 10%;
+    }
+    .fun-page .list{
+        max-width: 90%;
+    }
+    .fun-page img{
+        max-width: 90%;
+    }
+    .resume{
+        margin-left: 5%;
+        max-width: 90%;
+    }
+    .resume-info{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+@media only screen and (min-width: 768px){
+    #photo-of-me{
+        /* position: fixed; */
+        max-height: 28rem;
+        padding: 1.5rem;
+        background-color: #0b2123;
+        margin-top: 7%;
+    }
+    #homepage-paragraph{
+        margin-left: 7%;
+        margin-top: 7%;
+        padding: 2rem;
+        max-width: 50%;
+        background-color: #0b2123;
+    }
+    .fun-page{
+        margin-left: 25%;
+    }
+    .fun-page .list{
+        max-width: 70%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #homepage-paragraph{
+        text-align: left;
+        min-width: 20%;
+        max-width: 40%;
+        margin-left: 10%;
+        padding: 2rem;
+        background-color: #0b2123;
+    }
+    
+    #photo-of-me{
+        float:right;
+        margin-left: 15%;
+        padding: 2rem;
+        max-height: 30rem;
+        margin-right: 10%;
+        background-color: #0b2123;
+    }
+    .fun-page{
+        margin-left: 30%;
+    }
+    .fun-page div{
+        max-width: 60%;
+    }
+    .fun-page .list{
+        max-width: 60%;
+    }
+}
+@media only screen and (min-width: 1440px){
+    #homepage-paragraph{
+        text-align: left;
+        min-width: 20%;
+        max-width: 50%;
+        margin-left: 10%;
+        padding: 2rem;
+        background-color: #0b2123;
+    }
+    
+    #photo-of-me{
+        float:right;
+        margin-left: 15%;
+        padding: 2rem;
+        max-height: 30rem;
+        margin-right: 10%;
+        background-color: #0b2123;;
+    }
+}

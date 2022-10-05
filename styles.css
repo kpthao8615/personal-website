@@ -1,0 +1,74 @@
+/* body{
+    background-color:bisque;
+}
+div{
+    left: 3%;
+}
+.homepage{
+    position: fixed;
+    top: 10%;
+    padding: 1rem;
+    background-color: rgb(12, 23, 61);
+    color: aliceblue;
+    text-align: justify;
+    max-width: 60%;
+    font-size: 120%;
+    max-width: 60%;
+    word-wrap:normal; 
+} */
+.main{
+    margin-top: 5%;
+}
+#photo-of-me{
+    float:right;
+    margin: 0 0 0 0 15%;
+    padding:2rem;
+    max-height: 40%;
+}
+a:link{
+    color:#d9a918;
+}
+a:visited{
+    color:#4d7fc9;
+}
+a:hover, a:focus, a:active{
+    color:#e3c671;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    padding: 12px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    width:fit-content ;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .navbar a{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+#previous-experience{
+    top: 16%;
+}
+#about-me{
+    top: 28%;
+}

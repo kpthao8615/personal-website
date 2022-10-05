@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kong Pheng Thao's Webpage</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <!-- Code for create a Menu Bar-->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun Things About Me</a></li>
+            </ul>
+        </div>
+        <!-- Page Content -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+
+                <div class="grid-x grid-padding-x">
+                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+                </div>
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <!-- Code to Create a navigation bar on top of the webpage-->
+                    <div class="cell small-0">
+                        <a class="active cell small-0 large-auto" href="index.html">Home</a>
+                        <a class="cell small-0 large-auto" href="projects.html">Projects</a>
+                        <a class="cell small-0 large-auto" href="resume.html">Resume</a>
+                        <a class="cell small-0 large-auto" href="fun.html">Fun Stuff About Me</a>
+                </div>
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="homepage cell small-12 large-8" style="background-color: cyan;">
+                        <h1>Kong Pheng Thao</h1>
+                        <!-- <img src="my-project.jpg.jpg" height="400" id="photo-of-me"/> -->
+                        <p>
+                            Hello! My name is Kong Pheng Thao. I'm a 4th year at <a href="https://www.stthomas.edu" target="_blank">The University of St. Thomas</a>. On this webpage you can find other links that'll lead you toward any other pages I have. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
